@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sycomfy/presentation/pages/login_page.dart';
+import 'package:sycomfy/features/auth/presentation/pages/home_dashboard.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
       title: 'Sycomfy App',
-      home: LoginPage(),
+      home: HomeDashboard(),
     );
   }
 }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sycomfy/presentation/widgets/app_button.dart';
-import 'package:sycomfy/presentation/widgets/auth_button.dart';
-import 'package:sycomfy/presentation/widgets/auth_field.dart';
+import 'package:sycomfy/features/app/presentation/widget/app_button.dart';
+import 'package:sycomfy/features/auth/presentation/widgets/auth_button.dart';
+import 'package:sycomfy/features/auth/presentation/widgets/auth_field.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
